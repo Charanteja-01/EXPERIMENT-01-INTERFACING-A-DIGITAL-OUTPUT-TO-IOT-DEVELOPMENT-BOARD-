@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 07-02-2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: Yedlapalli Charan Teja
+###  ROLL NO :212223040247
+###  DEPARTMENT: B.E CSE
 
 
 
@@ -88,12 +88,38 @@ The main features of LPC2148 include the following.
 ## STM 32 CUBE PROGRAM :
 
 
-
+```
+Developed By:Yedlapalli Charan Teja
+Register No:212223040247
+```
+```
+void led();  //Function declaration
+int main(void)
+{
+ while (1)
+  {
+	  led();
+  }
+  
+}
+void led()
+{
+	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	HAL_Delay(3000);
+	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	HAL_Delay(3000);
+}
+```
 
 
 ## OUTPUT  :
- 
- 
+ ### LED OFF:
+  ![262975808-61391afa-1425-470d-89cc-f66f4ae92a98](https://github.com/Charanteja-01/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/145693038/8192db0a-46b5-4990-91f0-327393528098)
+  
+
+ ### LED ON:
+ ![262976366-3daa530c-26e6-4143-a8c4-dab169c4593e](https://github.com/Charanteja-01/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/145693038/a85c11dd-4b2f-4e8c-93cc-08671b434587)
+
  
  
 ## Result :
